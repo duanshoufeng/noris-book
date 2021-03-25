@@ -1,0 +1,38 @@
+- file: index
+  title: Welcome
+
+- file: start/intro
+  title: Get Start
+
+- file: sql/intro
+  title: Learn SQL
+  sections:
+    - file: sql/test
+
+- file: machine/intro
+  title: Machine Connection
+
+- file: tasks/intro
+  title: Tasks
+  sections:
+    - file: tasks/2020
+      title: 2020
+    - file: tasks/2021
+      title: 2021
+
+- file: incidents/index
+  title: Incidents
+  sections:
+    - file: incidents/closed/index
+      title: Closed
+      sections:
+        - file: incidents/closed/mde/index
+          title: MDE
+          sections:
+            - file: incidents/closed/mde/cpc-deallocate
+              title: CPC-Deallocate
+            - file: incidents/closed/mde/catalog-undefined
+              title: Breakdown Catalog Undefined
+    - file: incidents/open/index
+      title: Open
+
