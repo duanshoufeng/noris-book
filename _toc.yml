@@ -4,13 +4,20 @@
 - file: start/intro
   title: Get Start
 
+- file: onboarding/intro
+  title: NORIS ONBOARDING
+
 - file: sql/intro
-  title: Learn SQL
+  title: SQL Basics
   sections:
-    - file: sql/test
+    - file: sql/tables-and-views
+      title: Implementing Tables & Views
 
 - file: machine/intro
   title: Machine Connection
+
+- file: howto/intro
+  title: How-To
 
 - file: tasks/intro
   title: Tasks
@@ -35,4 +42,10 @@
               title: Breakdown Catalog Undefined
     - file: incidents/open/index
       title: Open
+      sections:
+        - file: incidents/open/o3e/index
+          title: O3E
+          sections:
+            - file: incidents/open/o3e/user-change
+              title: Bar grow with wrong username
 

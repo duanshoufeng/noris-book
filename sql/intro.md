@@ -1,1 +1,1 @@
-# Zero to Hero with SQL
+# Welcome to SQL
